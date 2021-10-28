@@ -1,0 +1,13 @@
+{
+  "images" : [
+    {
+      "filename" : "exit_to_app_24px.png",
+      "idiom" : "universal",
+     
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

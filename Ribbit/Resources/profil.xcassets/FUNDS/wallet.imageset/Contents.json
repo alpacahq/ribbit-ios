@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "account_balance_wallet_24px.svg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

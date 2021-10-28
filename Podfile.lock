@@ -1,0 +1,101 @@
+PODS:
+  - Alamofire (5.4.3)
+  - AppCenter (4.2.0):
+    - AppCenter/Analytics (= 4.2.0)
+    - AppCenter/Crashes (= 4.2.0)
+  - AppCenter/Analytics (4.2.0):
+    - AppCenter/Core
+  - AppCenter/Core (4.2.0)
+  - AppCenter/Crashes (4.2.0):
+    - AppCenter/Core
+  - BRYXBanner (0.8.4)
+  - Charts (3.6.0):
+    - Charts/Core (= 3.6.0)
+  - Charts/Core (3.6.0)
+  - DSFSparkline (4.1.2):
+    - DSFSparkline/Core (= 4.1.2)
+  - DSFSparkline/Core (4.1.2)
+  - FittedSheets (2.4.2)
+  - ImageLoader (0.15.0)
+  - InitialsImageView (0.7.0)
+  - IQKeyboardManagerSwift (6.5.6)
+  - KWVerificationCodeView (0.4.0)
+  - SDWebImage/Core (5.11.1)
+  - SDWebImageSVGCoder (1.6.0):
+    - SDWebImage/Core (~> 5.6)
+  - SSSpinnerButton (3.0.2)
+  - SwiftyJSON (5.0.1)
+  - SwiftyRSA (1.7.0):
+    - SwiftyRSA/ObjC (= 1.7.0)
+  - SwiftyRSA/ObjC (1.7.0)
+  - Toast-Swift (5.0.1)
+  - TweeTextField (1.6.3)
+
+DEPENDENCIES:
+  - Alamofire
+  - AppCenter
+  - BRYXBanner
+  - Charts
+  - DSFSparkline (from `https://github.com/dagronf/DSFSparkline.git`)
+  - FittedSheets
+  - ImageLoader
+  - InitialsImageView
+  - IQKeyboardManagerSwift
+  - KWVerificationCodeView
+  - SDWebImageSVGCoder
+  - SSSpinnerButton
+  - SwiftyJSON
+  - SwiftyRSA
+  - Toast-Swift
+  - TweeTextField
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AppCenter
+    - BRYXBanner
+    - Charts
+    - FittedSheets
+    - ImageLoader
+    - InitialsImageView
+    - IQKeyboardManagerSwift
+    - KWVerificationCodeView
+    - SDWebImage
+    - SDWebImageSVGCoder
+    - SSSpinnerButton
+    - SwiftyJSON
+    - SwiftyRSA
+    - Toast-Swift
+    - TweeTextField
+
+EXTERNAL SOURCES:
+  DSFSparkline:
+    :git: https://github.com/dagronf/DSFSparkline.git
+
+CHECKOUT OPTIONS:
+  DSFSparkline:
+    :commit: 7847d7c2ada45f74af66618f77c489fd72eab122
+    :git: https://github.com/dagronf/DSFSparkline.git
+
+SPEC CHECKSUMS:
+  Alamofire: e447a2774a40c996748296fa2c55112fdbbc42f9
+  AppCenter: 87ef6eefd8ade4df59e88951288587429f3dd2a5
+  BRYXBanner: 4fbd266f96ce000e4c6cc9a0558c446bd88d9801
+  Charts: b1e3a1f5a1c9ba5394438ca3b91bd8c9076310af
+  DSFSparkline: 5afb02975d7c9f4acc4a94fbdf774796124d6b67
+  FittedSheets: 661408776eb4ff514a31da75b3600bd7222b2b3d
+  ImageLoader: e0635d52020d64dc7687e3a3b14dc53212ac0442
+  InitialsImageView: 7a416d36fc6df5434198664db28a3ffb0228426d
+  IQKeyboardManagerSwift: c7df9d2deb356c04522f5c4b7b6e4ce4d8ed94fe
+  KWVerificationCodeView: 92cca6ad028546d3232fa75cda3a40d00109a1a2
+  SDWebImage: a7f831e1a65eb5e285e3fb046a23fcfbf08e696d
+  SDWebImageSVGCoder: 020cc0f1ab0ef8ca63a9365c03421d67aa3d4a46
+  SSSpinnerButton: ba9ec6858f2f6fa902a5131d3aec5282588241f8
+  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
+  SwiftyRSA: 8c6dd1ea7db1b8dc4fb517a202f88bb1354bc2c6
+  Toast-Swift: 9b6a70f28b3bf0b96c40d46c0c4b9d6639846711
+  TweeTextField: 47bf8e7f0433364a7f7e119c45e7f278ea50eb62
+
+PODFILE CHECKSUM: 1631cff2799648eeda81df7944485d744add80b2
+
+COCOAPODS: 1.10.2

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Inter-SemiBold.ttf">
+            <string>Inter-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="r5w-xz-joS" customClass="TicketView" customModule="stockly" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="66" height="22"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ticket_background" translatesAutoresizingMaskIntoConstraints="NO" id="1bM-Dj-5L6">
+                    <rect key="frame" x="0.0" y="0.0" width="66" height="22"/>
+                    <color key="tintColor" name="FFE68B"/>
+                </imageView>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ticket_star" translatesAutoresizingMaskIntoConstraints="NO" id="Y4Z-nl-8xS">
+                    <rect key="frame" x="12" y="4.5" width="13" height="13"/>
+                    <color key="tintColor" name="7A5F4B"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="13" id="WRR-Tf-yfW"/>
+                        <constraint firstAttribute="height" constant="13" id="qBy-Kc-eP0"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="45" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zDW-TY-4Nt">
+                    <rect key="frame" x="30" y="5" width="26" height="12"/>
+                    <fontDescription key="fontDescription" name="Inter-SemiBold" family="Inter" pointSize="13"/>
+                    <color key="textColor" name="7A5F4B"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IjI-7f-GXE">
+                    <rect key="frame" x="0.0" y="0.0" width="66" height="22"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="1bM-Dj-5L6" secondAttribute="bottom" id="4Cz-Dc-PbL"/>
+                <constraint firstItem="1bM-Dj-5L6" firstAttribute="top" secondItem="r5w-xz-joS" secondAttribute="top" id="75I-st-VRS"/>
+                <constraint firstAttribute="bottom" secondItem="IjI-7f-GXE" secondAttribute="bottom" id="79t-LF-XmC"/>
+                <constraint firstItem="zDW-TY-4Nt" firstAttribute="top" secondItem="r5w-xz-joS" secondAttribute="top" constant="5" id="7ir-yL-60U"/>
+                <constraint firstItem="1bM-Dj-5L6" firstAttribute="leading" secondItem="r5w-xz-joS" secondAttribute="leading" id="EXp-ej-ujQ"/>
+                <constraint firstItem="zDW-TY-4Nt" firstAttribute="leading" secondItem="Y4Z-nl-8xS" secondAttribute="trailing" constant="5" id="JgD-Oh-Oao"/>
+                <constraint firstAttribute="trailing" secondItem="IjI-7f-GXE" secondAttribute="trailing" id="MJd-7a-QHy"/>
+                <constraint firstItem="IjI-7f-GXE" firstAttribute="top" secondItem="r5w-xz-joS" secondAttribute="top" id="Nia-dQ-opF"/>
+                <constraint firstAttribute="trailing" secondItem="zDW-TY-4Nt" secondAttribute="trailing" constant="10" id="TVY-ua-46N"/>
+                <constraint firstItem="Y4Z-nl-8xS" firstAttribute="leading" secondItem="r5w-xz-joS" secondAttribute="leading" constant="12" id="Vsy-DI-5Ib"/>
+                <constraint firstAttribute="bottom" secondItem="zDW-TY-4Nt" secondAttribute="bottom" constant="5" id="WSY-tj-JcN"/>
+                <constraint firstAttribute="trailing" secondItem="1bM-Dj-5L6" secondAttribute="trailing" id="eI4-8O-vmv"/>
+                <constraint firstItem="Y4Z-nl-8xS" firstAttribute="centerY" secondItem="r5w-xz-joS" secondAttribute="centerY" id="hMA-t7-kCb"/>
+                <constraint firstItem="IjI-7f-GXE" firstAttribute="leading" secondItem="r5w-xz-joS" secondAttribute="leading" id="rdY-ni-DMC"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="backgroundImage" destination="1bM-Dj-5L6" id="kkL-o2-1r0"/>
+                <outlet property="lblTitle" destination="zDW-TY-4Nt" id="AlC-Cw-sND"/>
+                <outlet property="starImage" destination="Y4Z-nl-8xS" id="Kv1-RE-cxi"/>
+            </connections>
+            <point key="canvasLocation" x="114.49275362318842" y="-297.32142857142856"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ticket_background" width="66" height="28"/>
+        <image name="ticket_star" width="18" height="18"/>
+        <namedColor name="7A5F4B">
+            <color red="0.4779999852180481" green="0.37299999594688416" blue="0.29399999976158142" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="FFE68B">
+            <color red="1" green="0.90200001001358032" blue="0.54500001668930054" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
